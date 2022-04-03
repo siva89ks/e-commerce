@@ -13,4 +13,11 @@ public class RestExceptionAdvice {
         final ErrorResponse response = ErrorResponse.create().message(ex.getMessage()).addError(ex.getError());
         return response;
     }
+
+    @ExceptionHandler(ProductException.class)
+    @ResponseStatus(code = HttpStatus.INTERNAL_SERVER_ERROR)
+    public ErrorResponse prepareNoDataException(final ProductException ex) {
+        final ErrorResponse response = ErrorResponse.create().message(ex.getMessage()).addError(ex.getError());
+        return response;
+    }
 }
