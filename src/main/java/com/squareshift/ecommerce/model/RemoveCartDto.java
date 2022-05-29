@@ -1,7 +1,7 @@
 package com.squareshift.ecommerce.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.squareshift.ecommerce.Dto.BaseDto;
+import com.squareshift.ecommerce.dto.BaseDto;
 import lombok.Data;
 
 @Data

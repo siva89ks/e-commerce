@@ -1,7 +1,7 @@
 package com.squareshift.ecommerce.service;
 
 
-import com.squareshift.ecommerce.Dto.ProductDto;
+import com.squareshift.ecommerce.dto.ProductDto;
 import com.squareshift.ecommerce.model.WarehouseDto;
 import com.squareshift.ecommerce.model.response.ProductInfoResponse;
 import com.squareshift.ecommerce.adapter.ItemAdapter;

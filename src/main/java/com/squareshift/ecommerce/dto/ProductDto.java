@@ -1,4 +1,4 @@
-package com.squareshift.ecommerce.Dto;
+package com.squareshift.ecommerce.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;

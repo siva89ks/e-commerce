@@ -1,6 +1,5 @@
 package com.squareshift.ecommerce.service.RemoteService;
 
-import com.squareshift.ecommerce.Dto.ProductDto;
 import com.squareshift.ecommerce.model.WarehouseDto;
 import com.squareshift.ecommerce.model.response.ProductResponse;
 import org.springframework.beans.factory.annotation.Autowired;

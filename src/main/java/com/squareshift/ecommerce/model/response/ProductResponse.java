@@ -1,7 +1,7 @@
 package com.squareshift.ecommerce.model.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.squareshift.ecommerce.Dto.ProductDto;
+import com.squareshift.ecommerce.dto.ProductDto;
 import lombok.Data;
 
 @Data
